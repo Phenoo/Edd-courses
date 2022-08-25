@@ -623,6 +623,9 @@ option {
     .mentors p {
         margin-top: 0.5rem;
     }
+    .social-icons {
+        width: 30%;
+    }
     .footer-container {
         padding: 0.5rem;
     }
@@ -667,6 +670,15 @@ option {
     .search svg {
         padding: 0.5rem;
         font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .container1 {
+        padding: 0.5rem;
+    }
+    .home-input {
+        margin: 2rem 0;
     }
 }
 
